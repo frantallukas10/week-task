@@ -58,7 +58,7 @@ export default function Home() {
       </p>
       <div className="relative inline-flex">
         {isLoading && (
-          <div className="absolute inset-0 bg-white bg-opacity-80 flex justify-center items-center z-10">
+          <div className="absolute inset-0 bg-opacity-80 flex justify-center items-center z-10">
             <div className="text-lg font-bold text-gray-800">
               Loading data...
             </div>

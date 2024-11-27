@@ -9,9 +9,7 @@ const Td: FC<{ className?: string; children?: ReactNode }> = ({
   className,
   children,
 }) => (
-  <td className={'bg-white border border-black w-8 h-8 ' + className}>
-    {children}
-  </td>
+  <td className={'border border-black w-8 h-8 ' + className}>{children}</td>
 );
 
 export const WeekTable: FC<WeekTableProps> = ({ currentWindow, startDay }) => {
