@@ -24,7 +24,7 @@ export const WeekTable: FC<WeekTableProps> = ({ currentWindow, startDay }) => {
               const dayValue = currentWindow[colIndex];
               const isDone = dayValue > 0 && rowIndex >= 6 - dayValue; // Ensure no green if dayValue is 0
               return (
-                <Td key={colIndex} className={isDone ? 'bg-green-500' : ''} />
+                <Td key={colIndex} className={isDone ? 'bg-green-600' : ''} />
               );
             })}
           </tr>
